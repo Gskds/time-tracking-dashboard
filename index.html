@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <main>
+    
+    <article class="dashboard">
+      
+      <section class="profile">
+        <div class="report" aria-label="User report">
+          <img class="profile-picture" src="/images/image-jeremy.png" alt="Jeremy's profile picture">
+          <div class="report__meta">
+            <p class="report__lable">Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="timeframe-selector">
+          <button class="timeframe-btn" data-timeframe="daily" id="daily">Daily</button>
+          <button class="timeframe-btn" data-timeframe="weekly" id="weekly">Weekly</button>
+          <button class="timeframe-btn" data-timeframe="monthly" id="monthly">Monthly</button>
+        </div>
+      </section>
+      
+      <section class="card work">
+        <div class="card-background card-background--work"></div>
+        <div class="card-content">
+          <div class="card-header">
+            <p class="activity-title">Work</p>
+            <img class="option-icon" src="/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="time-spent">
+            <h2 class="current-hrs">32hrs</h2>
+            <span class="previous-hrs">Last Week - 36hr</span>
+          </div>
+        </div>
+      </section>
+      
+      <section class="card play">
+        <div class="card-background card-background--play"></div>
+        <div class="card-content">
+          <div class="card-header">
+            <p class="activity-title">Play</p>
+            <img class="option-icon" src="/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="time-spent">
+            <h2 class="current-hrs">10hrs</h2>
+            <span class="previous-hrs">Last Week - 8hr</span>
+          </div>
+        </div>
+      </section>
+      
+      <section class="card study">
+        <div class="card-background card-background--study"></div>
+        <div class="card-content">
+          <div class="card-header">
+            <p class="activity-title">Study</p>
+            <img class="option-icon" src="/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="time-spent">
+            <h2 class="current-hrs">4hrs</h2>
+            <span class="previous-hrs">Last Week - 7hr</span>
+          </div>
+        </div>
+      </section>
+      
+      <section class="card exercise">
+        <div class="card-background card-background--exercise"></div>
+        <div class="card-content">
+          <div class="card-header">
+            <p class="activity-title">Exercise</p>
+            <img class="option-icon" src="/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="time-spent">
+            <h2 class="current-hrs">4hrs</h2>
+            <span class="previous-hrs">Last Week - 5hr</span>
+          </div>
+        </div>
+      </section>
+      
+      <section class="card social">
+        <div class="card-background card-background--social"></div>
+        <div class="card-content">
+          <div class="card-header">
+            <p class="activity-title">Social</p>
+            <img class="option-icon" src="/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="time-spent">
+            <h2 class="current-hrs">5hrs</h2>
+            <span class="previous-hrs">Last Week - 10hr</span>
+          </div>
+        </div>
+      </section>
+      
+      <section class="card self-care">
+        <div class="card-background card-background--self-care"></div>
+        <div class="card-content">
+          <div class="card-header">
+            <p class="activity-title">Self Care</p>
+            <img class="option-icon" src="/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="time-spent">
+            <h2 class="current-hrs">2hrs</h2>
+            <span class="previous-hrs">Last Week - 2hr</span>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+  
+</body>
+
+</html>
