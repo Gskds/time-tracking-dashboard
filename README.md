@@ -10,7 +10,6 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -40,8 +39,6 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 One of the challenge I encountered while doing this challenge is that positioning the timeframe-serector section behind the report section using the (position: relative, z-index: -1) css declaration while keep the functionality of the buttons inside it. But this declaration make the buttons unclickable. 
 
@@ -248,10 +245,6 @@ I don't use option 1 and 3 for the following reasons:
 - option 1 changes the structure of may HTML document I don't want since I pretty happy with may structure.
 - Option 3 uses JavaScript to fix this I didn't use this because the main problem I faced is a layout issue(the functionality of the buttons brock because of layout issue).
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Gskds](https://www.frontendmentor.io/profile/Gskds)
