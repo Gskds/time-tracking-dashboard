@@ -141,8 +141,11 @@ h2 {
   border: 0;
   background-color: transparent;
   color: var(--clr-purple-500);
+  cursor: pointer;
   font-size: var(--fs-600);
   font-weight: var(--fw-bold);
+  position: relative;
+  z-index: 1;
 }
 
 .timeframe-btn:is(:hover, :focus-visible) {
@@ -183,12 +186,26 @@ h2 {
 }
 
 .timeframe-selector {
-  background: var(--clr-navy-900);
   display: flex;
   gap: 2rem;
   padding: 1.5rem;
   border-radius: 10px;
+  position: relative;
+  top: -15px;
 }
+
+.timeframe-selector::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--clr-navy-900);
+  border-radius: 10px;
+  z-index: -1; /* Background only goes behind */
+}
+
 
 .card-background {
   position: relative;
@@ -238,6 +255,8 @@ h2 {
 @media (min-width: 50em) {
   .dashboard {
     grid-template-columns: repeat(4, 1fr);
+    align-items: start;
+    width: 800px;
   }
   
   .profile {
